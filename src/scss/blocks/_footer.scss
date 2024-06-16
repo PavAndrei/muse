@@ -1,0 +1,21 @@
+.footer {
+    padding-bottom: 32px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer__item {}
+
+.footer__link {
+    font-size: 13px;
+    text-align: center;
+    color: var(--cta-color);
+
+    @include mediaMobile () {
+        font-size: 11px;
+    }
+}

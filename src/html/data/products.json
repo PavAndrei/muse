@@ -1,0 +1,22 @@
+[
+    {
+        "img": "ultimate-guitar",
+        "title": "Ultimate Guitar",
+        "text": "The best platform for music makers to play songs they love. Home to the world's largest music community."
+    },
+    {
+        "img": "muse-score",
+        "title": "MuseScore",
+        "text": "Create, play back, and print sheet music with free open source notation software."
+    },
+    {
+        "img": "audio-com",
+        "title": "audio.com",
+        "text": "The easiest way to share any sound online."
+    },
+    {
+        "img": "audacity",
+        "title": "Audacity",
+        "text": "The world's most popular audio editing and recording app."
+    }
+]

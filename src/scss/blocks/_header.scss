@@ -1,0 +1,21 @@
+.header {
+    background-color: #FFFFFF;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+
+    @include mediaMobile () {
+        padding: 24px 0;
+    }
+}
+
+.header__logo {
+    width: 144px;
+    height: 40px;
+}
+
+.header__logo_img {}

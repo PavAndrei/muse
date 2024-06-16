@@ -1,0 +1,43 @@
+.icon--arrow-right {
+	width: 14px;
+	height: 14px;
+	stroke: #FFFFFF;
+	fill: transparent;
+}
+
+.icon--readmore-link {
+	width: 14px;
+	height: 14px;
+	stroke: var(--cta-color);
+	fill: transparent;
+
+	transition: stroke 300ms ease-in;
+}
+
+.icon--inst {
+	width: 24px;
+	height: 24px;
+	stroke: var(--cta-color);
+	fill: var(--cta-color);
+}
+
+.icon--telegram {
+	width: 24px;
+	height: 24px;
+	stroke: var(--cta-color);
+	fill: var(--cta-color);
+}
+
+.icon--linkedin {
+	width: 24px;
+	height: 24px;
+	stroke: var(--cta-color);
+	fill: var(--cta-color);
+}
+
+.icon--facebook {
+	width: 24px;
+	height: 24px;
+	stroke: var(--cta-color);
+	fill: var(--cta-color);
+}

@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    gap: 32px;
+
+    margin-bottom: 32px;
+
+    @include mediaMobile () {
+        gap: 24px;
+
+        margin-bottom: 24px;
+    }
+}

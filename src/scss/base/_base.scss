@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-secondary-color);
+	font-family: var(--font-family);
+	overflow-x: hidden;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+
+	@include mediaMobile () {
+		font-size: 12px;
+	}
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: inherit;
+	display: inline-block;
+}
+
+code {
+	background-color: #e9f1f6;
+	padding: 0.2rem;
+	border-radius: 4px;
+}
+
+pre.code {
+	overflow-x: auto;
+	background-color: #e9f1f6;
+	padding: 1rem;
+	border-radius: 4px;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.title-1,
+.title-2 {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 130%;
+	color: var(--text-primary-color);
+	text-align: center;
+
+	@include mediaMobile () {
+		font-size: 22px;
+	}
+}

@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector("form"),t=e.querySelector("input");e.addEventListener("submit",(function(e){e.preventDefault(),function(e){let n;return n=""!=t.value,n}()?alert("Welcome to the team!"):alert("Email is invalid"),t.value=""}))}();
